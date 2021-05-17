@@ -2,7 +2,7 @@ import colors from 'vuetify/es5/util/colors'
 
 const SITE_NAME = 'ちょこっとりすと'
 const DESCRIPTION = '簡単なちぇっくりすと'
-const URL = 'https://example.com'
+const URL = 'https://chocolist.wishstar.info'
 
 export default {
   // Disable server-side rendering: https://go.nuxtjs.dev/ssr-mode
@@ -22,6 +22,7 @@ export default {
       { hid: 'og:site_name', property: 'og:site_name', content: SITE_NAME },
       { hid: 'og:type', property: 'og:type', content: 'website' },
       { hid: 'og:url', property: 'og:url', content: URL },
+      { hid: 'og:image', property: 'og:image', content: URL + '/ogp_icon.png' },
       { hid: 'og:title', property: 'og:title', content: SITE_NAME },
       {
         hid: 'og:description',
@@ -59,7 +60,7 @@ export default {
   // PWA module configuration: https://go.nuxtjs.dev/pwa
   pwa: {
     manifest: {
-      lang: 'en',
+      lang: 'ja',
     },
   },
 
