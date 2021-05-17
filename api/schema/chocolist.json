@@ -1,0 +1,33 @@
+{
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": [
+      "name",
+      "list"
+    ],
+    "properties": {
+      "name": {
+        "type": "string"
+      },
+      "list": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "required": [
+            "name",
+            "checked"
+          ],
+          "properties": {
+            "name": {
+              "type": "string"
+            },
+            "checked": {
+              "type": "boolean"
+            }
+          }
+        }
+      }
+    }
+  }
+}
