@@ -22,6 +22,10 @@ const text = `
 - 入力された情報はさーばに保存したりしないので別ぶらうざや別端末と同期することができません
 - 保存可能なでーた容量はぶらうざ依存でよくわかんないです
 - localStorage を削除すると保存された情報が全部消えちゃいます
+
+## なにかあったら
+Twitter [@mumincacao](https://twitter.com/mumincacao) か [GitHub Issue](https://github.com/mumincacao/chocolist/issues) あたりまで。 必要そうで暇があれば対応するかもです。
+
 `
 
 export default Vue.extend({
