@@ -34,7 +34,7 @@
     </v-main>
     <v-footer absolute app>
       <v-spacer></v-spacer>
-      <span>&copy; 2021 - Now</span>
+      <span>&copy; 2021 - Mumin Cacao</span>
     </v-footer>
   </v-app>
 </template>
