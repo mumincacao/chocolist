@@ -11,11 +11,7 @@ module.exports = {
     '.*\\.(vue)$': 'vue-jest',
   },
   collectCoverage: true,
-  collectCoverageFrom: [
-    '<rootDir>/store/*.ts',
-  ],
-  coveragePathIgnorePatterns: [
-    '<rootDir>/store/index.ts',
-  ],
+  collectCoverageFrom: ['<rootDir>/store/*.ts'],
+  coveragePathIgnorePatterns: ['<rootDir>/store/index.ts'],
   setupFilesAfterEnv: ['<rootDir>/test/setup.js'],
 }
