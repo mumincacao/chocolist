@@ -12,8 +12,10 @@ module.exports = {
   },
   collectCoverage: true,
   collectCoverageFrom: [
-    '<rootDir>/components/**/*.vue',
-    '<rootDir>/pages/**/*.vue',
+    '<rootDir>/store/*.ts',
+  ],
+  coveragePathIgnorePatterns: [
+    '<rootDir>/store/index.ts',
   ],
   setupFilesAfterEnv: ['<rootDir>/test/setup.js'],
 }
