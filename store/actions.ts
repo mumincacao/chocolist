@@ -53,7 +53,7 @@ export async function setAll({ state, commit }: Context, { list, checked }: SetA
   }
 }
 
-export async function mergeImport({ state, commit, dispatch }: Context, data: Array<CheckList>) {
+export async function mergeImport({ state, commit }: Context, data: Array<CheckList>) {
   for (const list of data) {
     await sleep(0)
     const source = getList(state.list, list.name)
