@@ -14,7 +14,7 @@
   "dependencies": {
     "@nuxtjs/markdownit": "^2.0.0",
     "@nuxtjs/pwa": "^3.3.5",
-    "ajv": "^8.5.0",
+    "ajv": "^8.6.0",
     "core-js": "^3.14.0",
     "dateformat": "^4.5.1",
     "nuxt": "^2.15.3",
