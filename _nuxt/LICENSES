@@ -13,9 +13,6 @@
 /*! https://mths.be/punycode v1.4.1 by @mathias */
 
 
-/** @license URI.js v4.4.1 (c) 2011 Gary Court. License: http://github.com/garycourt/uri-js */
-
-
 /*!
   * vue-router v3.5.2
   * (c) 2021 Evan You
@@ -33,3 +30,6 @@
  * (c) 2021 Evan You
  * @license MIT
  */
+
+
+/** @license URI.js v4.4.1 (c) 2011 Gary Court. License: http://github.com/garycourt/uri-js */
