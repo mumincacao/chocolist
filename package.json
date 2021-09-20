@@ -15,7 +15,7 @@
     "@nuxtjs/markdownit": "^2.0.0",
     "@nuxtjs/pwa": "^3.3.5",
     "ajv": "^8.6.3",
-    "core-js": "^3.17.3",
+    "core-js": "^3.18.0",
     "dateformat": "^4.5.1",
     "nuxt": "^2.15.8",
     "vuex-persistedstate": "^4.0.0"
