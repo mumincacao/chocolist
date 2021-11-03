@@ -83,6 +83,7 @@ type Data = {
 }
 
 export default Vue.extend({
+  name: 'DataManager',
   data(): Data {
     return {
       type: TYPE.merge,

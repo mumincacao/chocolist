@@ -29,6 +29,7 @@ Twitter [@mumincacao](https://twitter.com/mumincacao) か [GitHub Issue](https:/
 `
 
 export default Vue.extend({
+  name: 'HelpPage',
   computed: {
     text: () => text,
   },

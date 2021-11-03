@@ -118,6 +118,7 @@ type Data = {
 }
 
 export default Vue.extend({
+  name: 'IndexPage',
   components: {
     AddItems,
     CheckIcon,

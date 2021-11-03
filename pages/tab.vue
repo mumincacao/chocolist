@@ -59,6 +59,7 @@ type Data = {
 }
 
 export default Vue.extend({
+  name: 'TabManager',
   data(): Data {
     return {
       name: null,

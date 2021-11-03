@@ -41,6 +41,7 @@
 
 <script>
 export default {
+  name: 'SiteLayout',
   data() {
     return {
       drawer: false,
